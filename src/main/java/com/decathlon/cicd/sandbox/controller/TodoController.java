@@ -1,4 +1,4 @@
-package net.guides.springboot.todomanagement.controller;
+package com.decathlon.cicd.sandbox.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import net.guides.springboot.todomanagement.model.Todo;
-import net.guides.springboot.todomanagement.service.ITodoService;
+import com.decathlon.cicd.sandbox.model.Todo;
+import com.decathlon.cicd.sandbox.service.ITodoService;
 
 @Controller
 public class TodoController {
@@ -38,7 +38,6 @@ public class TodoController {
 	public String showTodos(ModelMap model) {
 		String name = getLoggedInUserName(model);
 		model.put("todos", todoService.getTodosByUser(name));
-		// model.put("todos", service.retrieveTodos(name));
 		return "list-todos";
 	}
 
@@ -61,7 +60,6 @@ public class TodoController {
 	@RequestMapping(value = "/delete-todo", method = RequestMethod.GET)
 	public String deleteTodo(@RequestParam long id) {
 		todoService.deleteTodo(id);
-		// service.deleteTodo(id);
 		return "redirect:/list-todos";
 	}
 

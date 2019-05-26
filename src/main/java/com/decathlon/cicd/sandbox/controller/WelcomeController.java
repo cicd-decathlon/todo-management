@@ -1,4 +1,4 @@
-package net.guides.springboot.todomanagement.controller;
+package com.decathlon.cicd.sandbox.controller;
 
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;

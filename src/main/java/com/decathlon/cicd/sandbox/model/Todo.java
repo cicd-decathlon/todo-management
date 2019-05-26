@@ -1,4 +1,4 @@
-package net.guides.springboot.todomanagement.model;
+package com.decathlon.cicd.sandbox.model;
 
 import java.util.Date;
 

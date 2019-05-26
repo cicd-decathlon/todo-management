@@ -1,11 +1,11 @@
-package net.guides.springboot.todomanagement.service;
+package com.decathlon.cicd.sandbox.service;
 
 import java.util.Date;
 
 import java.util.List;
 import java.util.Optional;
 
-import net.guides.springboot.todomanagement.model.Todo;
+import com.decathlon.cicd.sandbox.model.Todo;
 
 public interface ITodoService {
 

@@ -1,4 +1,4 @@
-package net.guides.springboot.todomanagement.controller;
+package com.decathlon.cicd.sandbox.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

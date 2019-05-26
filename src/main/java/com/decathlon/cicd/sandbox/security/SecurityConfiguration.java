@@ -1,4 +1,4 @@
-package net.guides.springboot.todomanagement.security;
+package com.decathlon.cicd.sandbox.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

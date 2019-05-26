@@ -1,4 +1,4 @@
-package net.guides.springboot.todomanagement.service;
+package com.decathlon.cicd.sandbox.service;
 
 import java.util.Date;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import net.guides.springboot.todomanagement.model.Todo;
-import net.guides.springboot.todomanagement.repository.TodoRepository;
+import com.decathlon.cicd.sandbox.model.Todo;
+import com.decathlon.cicd.sandbox.repository.TodoRepository;
 
 @Service
 public class TodoService implements ITodoService {
