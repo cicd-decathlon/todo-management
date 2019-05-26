@@ -1,6 +1,13 @@
-# todo-management-spring-boot
+# todo-management
 
+## Demo
+1. Login Page
 
-# Mini Todo Management Project using Spring Boot + Spring MVC + Spring Security + JSP + Hibernate + MySQL
+URL : http://localhost:8080/login
 
-- http://www.javaguides.net/2018/09/mini-todo-management-project-using-spring-boot-springmvc-springsecurity-jsp-hibernate-mysql.html
+Username: admin
+
+Password: admin
+
+![alt text](./documentation/images/login-example-project.png "Login page")
+
